@@ -12,15 +12,15 @@
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="show_sql">true</property>
 		<!--<property name="format_sql">true</property> -->
-		<property name="hbm2ddl.auto">create-drop</property>
+<!-- 		<property name="hbm2ddl.auto">create-drop</property> -->
+<!-- 		<mapping class="com.hibernate.annotation.entity.Employee"/> -->
+<!-- 		 <mapping class="com.hibernate.annotation.entity.Department"/> -->
+<!-- 		<property name="hbm2ddl.auto">update</property> -->
 
-		<mapping class="com.hibernate.annotation.entity.Employee" />
-		<!-- <property name="hbm2ddl.auto">update</property> -->
+<!-- 		<mapping resource="mapping/Student.hbm.xml" /> -->
 
-		<!-- <mapping resource="mapping/Student.hbm.xml" /> -->
-
-		<!-- <mapping class="com.hibernate.annotation.entity.Student"/> 
-			 <mapping class="com.hibernate.annotation.entity.Course"/> <mapping class="com.hibernate.annotation.entity.Address"/> 
+		<!-- <mapping class="com.hibernate.annotation.entity.Student"/> <mapping 
+			class="com.hibernate.annotation.entity.Course"/> <mapping class="com.hibernate.annotation.entity.Address"/> 
 			<mapping class="com.hibernate.annotation.entity.StudentInformation"/> <mapping 
 			class="com.hibernate.annotation.entity.Employee"/> <mapping class="com.hibernate.annotation.entity.Account"/> -->
 
